@@ -144,6 +144,28 @@ main{
     text-align: center;
 }
 
-#what-i-do-describtion {
+/* skills-related-styles */
+
+.skill-container {
+    display: flex;
+    gap: 40px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.icon img{
+    text-align: center;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);;
+}
+
+#what-i-do-description {
     padding: 30px 150px;
 }
