@@ -6,7 +6,13 @@
 /* common shared styles  */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: ;
+}
+
+.banner{
+    background-image: url('images/developer.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .text-primary{
@@ -251,7 +257,7 @@ footer{
     margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"], textarea{
+.contact {
     display: block; 
     margin-bottom: 25px;
     padding: 18px 35px;
